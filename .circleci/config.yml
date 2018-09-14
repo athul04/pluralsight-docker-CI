@@ -1,9 +1,10 @@
 version: 2
 jobs:
    build:
-    test:
-      override:    
-        - mocha
+      steps:
+      test:
+         override:    
+            - mocha
      
 
 
